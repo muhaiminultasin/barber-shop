@@ -39,8 +39,8 @@ const OpeningTimes = () => {
 
         <div>
             <ul className='flex flex-col gap-3 mt-5'>
-                {OpeningsData.map(({day,time}) => {
-                    return <li className='flex justify-between '><strong>{day}</strong> {time}</li>
+                {OpeningsData.map(({day,time},i) => {
+                    return <li key={i} className='flex justify-between '><strong>{day}</strong> {time}</li>
                 })}
             </ul>
         </div>

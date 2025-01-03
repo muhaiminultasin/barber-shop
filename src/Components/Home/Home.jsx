@@ -6,6 +6,7 @@ import Customers from './Sections/Customers'
 import Gallery from './Sections/Gallery'
 import LocationSec from './Sections/LocationSec'
 import AboutSec from './Sections/AboutSec'
+import Banner from './Sections/Banner'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Gallery/>
       <LocationSec/>
       <AboutSec/>
+      <Banner/>
     </section>
   )
 }
