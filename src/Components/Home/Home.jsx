@@ -5,6 +5,7 @@ import Services2 from './Sections/Services2'
 import Customers from './Sections/Customers'
 import Gallery from './Sections/Gallery'
 import LocationSec from './Sections/LocationSec'
+import AboutSec from './Sections/AboutSec'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Customers/>
       <Gallery/>
       <LocationSec/>
+      <AboutSec/>
     </section>
   )
 }

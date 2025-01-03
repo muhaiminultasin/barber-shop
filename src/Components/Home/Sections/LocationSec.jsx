@@ -6,14 +6,14 @@ const LocationSec = () => {
   return (
     <section className="px-3 md:px-10">
         {/* First div */}
-      <div className='grid grid-cols-1 items-center'>
-        <div className='md:w-[60%]'>
+      <div className='grid row md:grid-cols-12 items-center'>
+        <div className='w-full md:w-[70%] col-span-9'>
             <h1 className=" text-2xl md:text-4xl font-bold">6 LOCATIONS IN NEW YORK CITY</h1>
             <p className="mt-5 text-lg">Did you know we've got you covered with 6 convenient Made Man Barbershop locations in Manhattan? Our range of services is as wide as your style choices!</p>
         </div>
 
-        <div className="w-fit mx-auto mt-5 md:mt-0 md:ms-auto">
-            <Button color="primary" variant="bordered" className="px-10 py-5 font-[500] rounded-none hover:bg-primary hover:text-white border transition duration-300">
+        <div className="w-full col-span-12 md:col-span-3 mt-5 md:mt-0 flex justify-center">
+            <Button color="primary" variant="bordered" className=" px-10  py-5 font-[500] rounded-none hover:bg-primary hover:text-white border transition duration-300">
                 Locations & Contact
             </Button>
         </div>
