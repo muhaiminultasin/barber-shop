@@ -40,7 +40,7 @@ const Services2 = () => {
   return (
     <section className="px-3 md:px-10">
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center  py-10">
+      <div className=" flex flex-col-reverse lg:grid  lg:grid-cols-2 gap-10 items-center  py-10">
 
         <div className="flex flex-col gap-5 ps-5">
           {

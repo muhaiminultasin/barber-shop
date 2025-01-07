@@ -31,9 +31,9 @@ const Services = () => {
       <h1 className="text-4xl font-bold leading-[65px]">OUR SERVICES</h1>
         <p className="text-lg font-[400] pb-10">From long layered cuts, to shorter edgier cuts, we bring our clients diverse expertise from around the globe</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-[#F4F2F0] py-10">
-        <div className="shadow-xl">
-            <img src="./services-aside.webp" alt="" className="mx-auto md:mx-0"/>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 bg-[#F4F2F0] py-10">
+        <div className="flex justify-center items-center ">
+            <img src="./services-aside.webp" alt="" className="mx-auto md:mx-0 shadow-xl"/>
         </div>
 
         <div className="flex flex-col gap-5 ps-5">

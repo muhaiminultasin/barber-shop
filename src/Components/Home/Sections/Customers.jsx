@@ -23,13 +23,13 @@ const Customers = () => {
 
 
   return (
-    <section className='w-full bg-[#F4F2F0] py-20 px-[20px]'>
-        <div className='flex justify-between flex-wrap gap-5'>
+    <section className='w-full bg-[#F4F2F0] py-10 md:py-15 lg:py-20 px-[20px]'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5  gap-5'>
             {
                 Logos.map(({img},i)=> {
-                    return <div key={i} className='w-fit'>
-                        <img src={img} alt="" className='w-[200px]'/>
-                    </div>
+                    
+                       return <img key={i} src={img} alt="" className=''/>
+                    
                 })
             }
         </div>
